@@ -50,7 +50,7 @@ jobs:
         cp build.config padavan-ng/trunk/.config
         pushd padavan-ng/trunk
         ./clear_tree.sh
-        cp build.config padavan-ng/trunk/configs/boards/TPLINK/TL_C5-V4.config
+        cp ../build.config trunk/configs/boards/TPLINK/TL_C5-V4.config
         ./build_firmware.sh
         popd
 
